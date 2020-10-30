@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
 main{
     padding: 20px;
+    font-family: 'Cairo', sans-serif;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
 
 .grunt, .gulp, .git, .npm{
-    padding: 15px;
+    padding: 15px 25px 40px 25px;
     width: 200px;
     height: 300px;
 }
 
 h2{
     padding-bottom: 0px;
+    clear: both;
+    color: #76ba8d;
+    margin: 0;
+}
+
+p{
+    color: #444444;
+    margin: 0;
+}
+
+img{
+    float: right;
+    padding-bottom: 25px;
+    padding-top: 30px;
 }
