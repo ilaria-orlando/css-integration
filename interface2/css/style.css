@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+
 body{
     color: #d9e6fd;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
 }
 
 .chart{
@@ -9,20 +13,54 @@ body{
 }
 
 .users{
-    padding: 20px;
+    padding: 10px 20px;
 }
 
-hr.solid {
-    border-top: 1px solid #d9e6fd;
+.usercount{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.smalltext{
+    font-size: 13px;
+    margin: 0px;
+    padding: 7px 0px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #649bf6;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 th{
     text-align: left;
+    font-weight: normal;
 }
 
 td{
-    border-top: 1px solid #d9e6fd;
+    border-top: 1px solid #649bf6;
+    padding: 5px;
+}
+
+.tdright{
     text-align: right;
+}
+
+.uppercase{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+}
 
 
 .blockchart{
@@ -30,7 +68,7 @@ td{
     justify-content: center;
     align-items: flex-end;
     flex-flow: row nowrap;
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px;
 }
 
 .block1{
